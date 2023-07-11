@@ -13,4 +13,4 @@ jobs:
     - name: Run Cal
       run: cal
     - name: List current directory contents
-      run: ls -ls
+      run: ls -la
