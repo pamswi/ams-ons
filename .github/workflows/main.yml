@@ -14,4 +14,4 @@ jobs:
     - name: List current directory contents
       run: ls -la
     - name: Execute script
-      run: bash ./ams-ons/script.sh
+      run: bash ./script.sh
