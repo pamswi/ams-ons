@@ -1,4 +1,18 @@
 # procedures and functions
+
+# Write a Python function to find the maximum of three numbers.
+
+def maxno(var1,var2,var3):
+    biggestno = max(int(var1),int(var2),int(var3))
+    return biggestno
+
+var1 = input("please enter a number: ")
+var2 = input("please enter a number: ")
+var3 = input("please enter a number: ")
+
+biggestnumber = maxno(var1,var2,var3)
+print(f"the biggest no is: {biggestnumber}")
+
 # tutorial
 
 def grade(homework, assessment, exam):
@@ -19,12 +33,12 @@ ICTgrade = round(ICTgrade)
 print(f"{name}, your final score is: {ICTgrade}%")
 
 # exercise
-# def add_cal(number1, number2):
-#     answer = number1 +number2
-#     return answer
+def add_cal(number1, number2):
+    answer = number1 +number2
+    return answer
 
-# added_number = add_cal(5,5)
-# print(added_number + 20)
+added_number = add_cal(5,5)
+print(added_number + 20)
 
 # def fourcandles(noofcandles):
 #     candlelist= []
