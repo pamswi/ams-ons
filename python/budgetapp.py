@@ -2,7 +2,7 @@
 
 class Budget:
 
-    def __init__(self, category, funds):
+    def __init__(self, funds):
         self.funds = float(funds)
 
     def print_balance(self):
