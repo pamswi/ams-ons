@@ -21,3 +21,5 @@ submit.grid(row=1, column=2)
 # displays window
 if __name__ == '__main__':
 	root.mainloop()
+
+	# check
