@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 28px;
+    color: #0066cc;
+  }
+  
+  h2 {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    color: #cc0066;
+  }
+  
+  p {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    color: #009933;
+  }
+  
+  .custom-font {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #990099;
+  }
+  
+  .highlighted-text {
+    background-color: #ffff99;
+  }

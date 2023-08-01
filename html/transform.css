@@ -1,0 +1,6 @@
+img {
+    transform: translate(100px, 250px) scaleX(-1) rotate(30deg) translateY(20px);
+}
+#dogtransformation {
+    transform: translate(100px, 250px) rotateY(180deg) skew(-25deg, 20deg); 
+}
