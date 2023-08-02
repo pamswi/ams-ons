@@ -1,0 +1,15 @@
+
+.right { 
+    position: absolute; 
+    right: 0px;
+    width: 300px; 
+    padding: 10px;
+    background-color: #b0e0e6;
+ }
+    
+
+div {
+    width:300px;
+    background-color: #b0e0e6;
+    margin:auto;
+}

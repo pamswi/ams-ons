@@ -1,0 +1,19 @@
+em {
+    color:blue;
+}
+article h1 {
+    color: red;
+}
+article > p {
+    color:lime;
+}
+article + footer {
+    color:purple;
+}
+h1 ~ footer,p {
+    background-color: grey;
+}
+
+p.hover:hover {
+    background-color: yellow;
+}
