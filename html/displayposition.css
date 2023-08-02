@@ -1,0 +1,28 @@
+h1 {
+    visibility: hidden
+}
+
+li {
+    display:inline;
+} 
+
+strong {
+    display:block;
+}
+
+div {
+    position:relative;
+    border: black solid 2px;
+    width:200px;
+    height:200px;
+}
+
+img {
+    width:200px;
+    height:200px;
+}
+#emoji {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
