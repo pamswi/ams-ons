@@ -14,11 +14,9 @@ class Person(db.Model):
     first_name = db.Column(db.String(30), default="John")
     last_name = db.Column(db.String(30), unique=True)
 
-
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(30), nullable=False)
-
 
 
 
