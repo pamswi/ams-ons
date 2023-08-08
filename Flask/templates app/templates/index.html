@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+<p>the names which contain {{ letter }} are:</p>
+
+<ul>
+{% for name in names %}
+    {% if letter in name %}
+    <li>{{ name }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% endblock body %}
